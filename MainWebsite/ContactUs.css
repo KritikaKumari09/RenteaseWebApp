@@ -1,0 +1,33 @@
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* set minium height to 100 viewport height i.e. 100% viewport height */
+    height: 1005;
+    
+}
+
+h2{
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+.box{
+    font-size: 20px;
+    height:16rem;
+    width:70%;
+    background-color: #e7e8e9;
+    border:2px solid black;
+    text-align: center;
+}
+
+.phone ,.email ,.location{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.phone i,.email i ,.location i{
+    margin-right: 10px;
+}
